@@ -70,6 +70,18 @@
         color: $dark;
       }
 
+      /* when the strong element itself carries the class */
+      strong.article__author {
+        font-weight: 800;
+        color: $dark;
+      }
+
+      /* linked author with strong inside (e.g. <a class="article__author"><strong>...</strong></a>) */
+      a.article__author strong {
+        font-weight: 800;
+        color: $dark;
+      }
+
       .article__author-sep {
         color: $dark;
       }
