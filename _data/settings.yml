@@ -34,7 +34,6 @@ disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example
 instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
 instagram-profile: artemsheludko_ # Add instagram username
 
-我的研究兴趣包括基于物理的建模与仿真，并行计算以及物理仿真和具身智能相结合
 #-------------------------------
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
