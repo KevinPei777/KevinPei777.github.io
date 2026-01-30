@@ -62,11 +62,21 @@
         .article__author {
           color: $dark;
           text-decoration: none;
-          font-weight: 600;
+          font-weight: 400;
+        }
+
+        .article__author strong,
+        .article__author > strong {
+          font-weight: 800;
+          color: $dark;
+        }
+
+        a.article__author {
+          color: $brand-color;
         }
 
         .article__author-sep {
-          color: $gray;
+          color: $dark;
         }
 
         a.article__author:hover {
