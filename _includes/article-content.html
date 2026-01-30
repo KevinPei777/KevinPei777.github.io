@@ -28,7 +28,18 @@
           <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}</p>
           
           <div class="article__footer">
-            <!-- date and read-more removed per user request -->
+            <div class="pub-venue">{% if post.venue %}{{ post.venue }}{% endif %}</div>
+            <div class="pub-links">
+              {% if post.paper %}
+                <a href="{{ post.paper }}" class="pub-link" target="_blank" rel="noopener noreferrer">[Paper]</a>
+              {% endif %}
+              {% if post.code %}
+                <a href="{{ post.code }}" class="pub-link" target="_blank" rel="noopener noreferrer">[Code]</a>
+              {% endif %}
+              {% if post.video %}
+                <a href="{{ post.video }}" class="pub-link" target="_blank" rel="noopener noreferrer">[Video]</a>
+              {% endif %}
+            </div>
           </div>
 
         </div>
