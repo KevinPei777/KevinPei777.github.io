@@ -26,7 +26,35 @@
           <h2 class="article__title">{{ post.title }}</h2>
 
           {% if post.authors %}
-            <div class="article__authors">{{ post.authors }}</div>
+            <div class="article__authors">
+              {% if post.authors | kind_of == "Array" %}
+                {% for author in post.authors %}
+                  {% assign is_map = author | kind_of == "Hash" %}
+                  {% if is_map %}
+                    {% assign name = author.name %}
+                    {% assign url = author.url %}
+                    {% assign bold = author.bold %}
+                  {% else %}
+                    {% assign name = author %}
+                    {% assign url = nil %}
+                    {% assign bold = nil %}
+                  {% endif %}
+
+                  {% if url %}
+                    <a href="{{ url }}" class="article__author" target="_blank" rel="noopener noreferrer">
+                      {% if bold %}<strong>{{ name }}</strong>{% else %}{{ name }}{% endif %}
+                    </a>
+                  {% else %}
+                    {% if bold %}<strong class="article__author">{{ name }}</strong>{% else %}<span class="article__author">{{ name }}</span>{% endif %}
+                  {% endif %}
+
+                  {% if forloop.last == false %}<span class="article__author-sep">, </span>{% endif %}
+                {% endfor %}
+              {% else %}
+                {% comment %}fallback: plain string{% endcomment %}
+                <span class="article__author">{{ post.authors }}</span>
+              {% endif %}
+            </div>
           {% endif %}
       
           <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 250 }}{% endif %}</p>

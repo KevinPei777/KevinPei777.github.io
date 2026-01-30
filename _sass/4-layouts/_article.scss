@@ -40,7 +40,7 @@
     }
 
     .article__title {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       font-size: 30px;
       
       a {
@@ -58,6 +58,21 @@
       font-weight: 600;
       line-height: 1.2;
     }
+      .article__authors {
+        .article__author {
+          color: $dark;
+          text-decoration: none;
+          font-weight: 600;
+        }
+
+        .article__author-sep {
+          color: $gray;
+        }
+
+        a.article__author:hover {
+          text-decoration: underline;
+        }
+      }
 
     .article__excerpt {
       margin-bottom: 20px;
@@ -83,7 +98,7 @@
         font-size: 17px;
         color: $dark;
         font-weight: 700;
-        margin-bottom: 8px;
+        margin-bottom: 4px;
       }
 
       .pub-links {
