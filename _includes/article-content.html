@@ -24,6 +24,10 @@
           </div>
       
           <h2 class="article__title">{{ post.title }}</h2>
+
+          {% if post.authors %}
+            <div class="article__authors">{{ post.authors }}</div>
+          {% endif %}
       
           <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 250 }}{% endif %}</p>
           
