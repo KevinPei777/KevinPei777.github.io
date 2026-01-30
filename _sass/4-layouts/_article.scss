@@ -44,11 +44,19 @@
       font-size: 30px;
       
       a {
-        color: $dark;
+        color: $black;
         &:hover {
           color: $black;
         }
       }
+    }
+
+    .article__authors {
+      margin-bottom: 12px;
+      font-size: 15px;
+      color: $dark;
+      font-weight: 600;
+      line-height: 1.2;
     }
 
     .article__excerpt {
@@ -74,6 +82,7 @@
         width: 100%;
         font-size: 17px;
         color: $dark;
+        font-weight: 700;
         margin-bottom: 8px;
       }
 

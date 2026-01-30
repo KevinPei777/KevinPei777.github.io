@@ -4,6 +4,7 @@ title:  Find a connection with the reader
 date:   2018-07-24 15:01:35 +0300
 image:  02.jpg
 tags:   Journal
+authors: Xinming Pei
 venue:  IEEE Transactions on Visualization and Computer Graphics (TVCG)
 paper:  "https://example.com/paper.pdf"
 code:   "https://github.com/you/repo"
