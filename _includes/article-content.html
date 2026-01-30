@@ -26,11 +26,11 @@
           <h2 class="article__title">{{ post.title }}</h2>
 
           {% if post.authors %}
-            <div class="article__authors">
-              {% if post.authors | kind_of == "Array" %}
+            {% assign first = post.authors[0] %}
+            {% if first and first.size > 1 %}
+              <div class="article__authors">
                 {% for author in post.authors %}
-                  {% assign is_map = author | kind_of == "Hash" %}
-                  {% if is_map %}
+                  {% if author.name %}
                     {% assign name = author.name %}
                     {% assign url = author.url %}
                     {% assign bold = author.bold %}
@@ -50,11 +50,10 @@
 
                   {% if forloop.last == false %}<span class="article__author-sep">, </span>{% endif %}
                 {% endfor %}
-              {% else %}
-                {% comment %}fallback: plain string{% endcomment %}
-                <span class="article__author">{{ post.authors }}</span>
-              {% endif %}
-            </div>
+              </div>
+            {% else %}
+              <div class="article__authors">{{ post.authors }}</div>
+            {% endif %}
           {% endif %}
       
           <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 250 }}{% endif %}</p>

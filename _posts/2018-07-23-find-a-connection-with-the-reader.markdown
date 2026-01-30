@@ -6,11 +6,10 @@ image:  02.jpg
 tags:   Journal
 authors:
 	- name: "Xinming Pei"
-		url: "https://xinming.example.com"
-		bold: true
+	  bold: true
 	- "Alice Zhang"
 	- name: "Bob Li"
-		url: "https://bob.example.com"
+	  url: "https://bob.example.com"
 venue:  IEEE Transactions on Visualization and Computer Graphics (TVCG)
 paper:  "https://example.com/paper.pdf"
 code:   "https://github.com/you/repo"
