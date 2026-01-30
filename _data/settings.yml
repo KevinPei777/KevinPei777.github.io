@@ -11,7 +11,7 @@ author:
   name: Xinming Pei
   image: 01.jpg
   say-hello: Hello, I’m <strong>Xinming Pei</strong>
-  bio: 'I am a PhD student at the State Key Laboratory of CAD & CG, Zhejiang University, where I am supervised by <strong><a href="http://www.cad.zju.edu.cn/home/weiweixu/" target="_blank">Prof. Weiwei Xu</a></strong> and <strong><a href="https://lanlei.github.io/" target="_blank">Dr. Lei Lan</a></strong>.'
+  bio: 'I am a PhD student at the State Key Laboratory of CAD & CG, Zhejiang University, where I am supervised by <strong><a href="http://www.cad.zju.edu.cn/home/weiweixu/" target="_blank">Prof. Weiwei Xu</a></strong> and <strong><a href="https://lanlei.github.io/" target="_blank">Dr. Lei Lan</a></strong>. My research focuses on physics-based modeling and simulation, parallel computing, and their integration with embodied intelligence.'
 
 
 #-------------------------------
@@ -34,7 +34,7 @@ disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example
 instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
 instagram-profile: artemsheludko_ # Add instagram username
 
-
+我的研究兴趣包括基于物理的建模与仿真，并行计算以及物理仿真和具身智能相结合
 #-------------------------------
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
