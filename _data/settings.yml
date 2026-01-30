@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
-title: Zolan
-logo: logo.svg # You can add own logo.
-description: Zolan is modern minimal theme for Jekyll
+title: Xinming Pei's Homepage
+# logo: logo.svg # You can add own logo.
+# description: Zolan is modern minimal theme for Jekyll
 
 
 #-------------------------------
@@ -11,7 +11,7 @@ author:
   name: Xinming Pei
   image: 01.jpg
   say-hello: Hello, I’m <strong>Xinming Pei</strong>
-  bio: 'I am a PhD student at the State Key Laboratory of CAD & CG, Zhejiang University, where I am supervised by <strong><a href="http://www.cad.zju.edu.cn/home/weiweixu/">Prof. Weiwei Xu</a></strong> and <strong><a href="https://lanlei.github.io/">Dr. Lei Lan</a></strong>.'
+  bio: 'I am a PhD student at the State Key Laboratory of CAD & CG, Zhejiang University, where I am supervised by <strong><a href="http://www.cad.zju.edu.cn/home/weiweixu/" target="_blank">Prof. Weiwei Xu</a></strong> and <strong><a href="https://lanlei.github.io/" target="_blank">Dr. Lei Lan</a></strong>.'
 
 
 #-------------------------------
