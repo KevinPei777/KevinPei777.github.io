@@ -1,6 +1,7 @@
 ---
 title: Experience
 layout: page
+permalink: /experience/
 ---
 
 # Experience

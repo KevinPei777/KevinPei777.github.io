@@ -25,15 +25,25 @@
               <li class="nav__item">
                 <a href="{{site.baseurl}}/" class="nav__link">Home</a>
               </li>
-              {% for page in site.pages %}
-                {% unless page.name == 'tags.html' or page.name == '404.html' %}
-              {% if page.title %}
+              {% if site.data.settings.nav %}
+                {% for item in site.data.settings.nav %}
+                  {% if item.title and item.url %}
+              <li class="nav__item">
+                <a href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | prepend: site.baseurl }}{% endif %}" class="nav__link">{{ item.title }}</a>
+              </li>
+                  {% endif %}
+                {% endfor %}
+              {% else %}
+                {% for page in site.pages %}
+                  {% unless page.name == 'tags.html' or page.name == '404.html' %}
+                    {% if page.title %}
               <li class="nav__item">
                 <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
               </li>
+                    {% endif %}
+                  {% endunless %}
+                {% endfor %}
               {% endif %}
-                {% endunless %}
-              {% endfor %}
             </ul>
 
           </div>
