@@ -2,7 +2,7 @@
 layout: post
 title:  Physics-inspired Estimation of Optimal Cloth Mesh Resolution
 date:   2025-08-11 15:01:35 +0300
-image:  02.jpg
+image:  Zhang_SIGGRAPH_2025.png
 tags:   Conference
 authors:
   - name: "Diyang Zhang"
@@ -18,7 +18,7 @@ authors:
 
 venue:  SIGGRAPH Conference Papers '25
 paper:  "https://dl.acm.org/doi/10.1145/3721238.3730619"
-video:  "/videos/Zhang_SIGGRAPH_2025.mp4"
+video:  "https://drive.google.com/file/d/1uFUiFCdFgzOE10Rl6pAPIZgCFRAuc1Cg/view"
 
 ---
 This paper studies how to determine optimal cloth mesh resolution without preliminary simulations. By modeling wrinkle formation from material stiffness and boundary conditions, it generates adaptive meshes that balance visual detail and computational efficiency.
