@@ -21,5 +21,5 @@ paper:  "https://dl.acm.org/doi/10.1145/3721238.3730619"
 video:  "https://drive.google.com/file/d/1uFUiFCdFgzOE10Rl6pAPIZgCFRAuc1Cg/view"
 
 ---
-This paper studies how to determine optimal cloth mesh resolution without preliminary simulations. By modeling wrinkle formation from material stiffness and boundary conditions, it generates adaptive meshes that balance visual detail and computational efficiency.
+This paper studies optimal cloth mesh resolution without preliminary simulations. By modeling wrinkle formation from material stiffness and boundary conditions, it produces adaptive meshes balancing detail and efficiency.
 
