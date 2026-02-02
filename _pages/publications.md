@@ -6,8 +6,8 @@ permalink: /publications/
 
 <style>
 .pub-year {
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   font-size: 28px;
   font-weight: 700;
 }
