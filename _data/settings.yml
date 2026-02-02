@@ -46,8 +46,6 @@ mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.
 #-------------------------------
 # Navigation (custom order)
 nav:
-  - title: Home
-    url: /
   - title: Publications
     url: /publications/
   - title: Experience
