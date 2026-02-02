@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  TraInterSim: Adaptive and Planning-Aware Hybrid-Driven Traffic Intersection Simulation
+title: "TraInterSim: Adaptive and Planning-Aware Hybrid-Driven Traffic Intersection Simulation"
 date:   2023-08-23 15:01:35 +0300
 image:  Lv_TVCG_2023.png
 tags:   Journal
