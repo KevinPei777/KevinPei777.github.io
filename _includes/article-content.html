@@ -68,7 +68,7 @@
                 <a href="{{ post.code }}" class="pub-link" target="_blank" rel="noopener noreferrer">[Code]</a>
               {% endif %}
               {% if post.video %}
-                <a href="{{ post.video }}" class="pub-link" target="_blank" rel="noopener noreferrer">[Video]</a>
+                <a href="{{ post.video | relative_url }}" class="pub-link" target="_blank" rel="noopener noreferrer">[Video]</a>
               {% endif %}
             </div>
           </div>

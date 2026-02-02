@@ -16,6 +16,6 @@ authors:
 
 venue:  IEEE Transactions on Visualization and Computer Graphics (TVCG), 2023
 paper:  "https://ieeexplore.ieee.org/document/10227562"
-video:  "{{site.baseurl}}/videos/Lv_TVCG_2023.mp4"
+video:  "/videos/Lv_TVCG_2023.mp4"
 ---
 This paper introduces TraInterSim, a traffic intersection simulation method that produces realistic and diverse agent behaviors in complex, lane-free intersections.
