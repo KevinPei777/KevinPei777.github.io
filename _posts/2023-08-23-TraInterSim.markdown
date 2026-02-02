@@ -18,4 +18,4 @@ venue:  IEEE Transactions on Visualization and Computer Graphics (TVCG), 2023
 paper:  "https://example.com/paper.pdf"
 video:  "https://youtu.be/..."
 ---
-Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." Noooooo! Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you!
+This paper introduces TraInterSim, a traffic intersection simulation method that produces realistic and diverse agent behaviors in complex, lane-free intersections.
