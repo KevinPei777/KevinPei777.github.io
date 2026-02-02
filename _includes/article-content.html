@@ -27,7 +27,7 @@
 
           {% if post.authors %}
             {% assign first = post.authors[0] %}
-            {% if first and first.size > 1 %}
+            {% if first and first.name %}
               <div class="article__authors">
                 {% for author in post.authors %}
                   {% if author.name %}
