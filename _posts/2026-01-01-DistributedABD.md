@@ -1,0 +1,30 @@
+---
+layout: post
+title:  Distributed Affine Body Dynamics with Adaptive Consensus
+date:   2026-01-01 15:01:35 +0300
+image:  Liu_SIGGRAPH_2026.png
+tags:   Conference
+authors:
+  - name: "Jiafeng Liu"
+    url: "https://hanke98.github.io/"
+  - name: "Wenhui Zhou"
+  - name: "Xinming Pei"
+    bold: true
+  - name: "Yifan Peng"
+    url: "https://www.eee.hku.hk/~evanpeng/"
+  - name: "Huamin Wang"
+    url: "https://wanghmin.github.io/"
+  - name: "Yin Yang"
+    url: "https://yangzzzy.github.io/"
+  - name: "Lei Lan"
+    url: "https://lanlei.github.io/"
+  - name: "Weiwei Xu"
+    url: "http://www.cad.zju.edu.cn/home/weiweixu/"
+
+venue:  SIGGRAPH Conference Papers '26
+# paper:  "https://dl.acm.org/doi/10.1145/3721238.3730619"
+# video:  "https://drive.google.com/file/d/1uFUiFCdFgzOE10Rl6pAPIZgCFRAuc1Cg/view"
+
+---
+We present a distributed Affine Body Dynamics (ABD) solver within the Incremental Potential Contact (IPC) framework. Using a consensus-based ADMM formulation, the method enables scalable multi-GPU and multi-node simulation of stiff near-rigid solids while preserving IPC-level robustness and non-penetration guarantees.
+

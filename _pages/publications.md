@@ -17,6 +17,7 @@ permalink: /publications/
 }
 .pub-authors {
   margin-bottom: 5px;
+  font-style: italic;
 }
 .pub-title {
   font-weight: 600;
@@ -41,6 +42,25 @@ permalink: /publications/
   background: #4070c0;
 }
 </style>
+
+<h2 class="pub-year">2026</h2>
+
+<div class="pub-item">
+  <div class="pub-authors">
+    Jiafeng Liu, Wenhui Zhou, <strong>Xinming Pei</strong>, Yifan Peng, Huamin Wang, Yin Yang, Lei Lan, Weiwei Xu.
+  </div>
+  <div class="pub-title">
+    Distributed Affine Body Dynamics with Adaptive Consensus.
+  </div>
+  <div class="pub-venue">
+    ACM SIGGRAPH 2026 Conference Papers.
+  </div>
+  <!-- <div class="pub-links">
+    <a href="https://dl.acm.org/doi/10.1145/3721238.3730619" target="_blank">Paper</a>
+    <a href="https://drive.google.com/file/d/1uFUiFCdFgzOE10Rl6pAPIZgCFRAuc1Cg/view" target="_blank">VIDEO</a>
+  </div> -->
+</div>
+
 
 <h2 class="pub-year">2025</h2>
 

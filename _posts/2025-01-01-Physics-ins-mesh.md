@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Physics-inspired Estimation of Optimal Cloth Mesh Resolution
-date:   2025-08-11 15:01:35 +0300
+date:   2025-01-01 15:01:35 +0300
 image:  Zhang_SIGGRAPH_2025.png
 tags:   Conference
 authors:
