@@ -56,7 +56,7 @@
             {% endif %}
           {% endif %}
       
-          <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 250 }}{% endif %}</p>
+          <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 300 }}{% endif %}</p>
           
           <div class="article__footer">
             <div class="pub-venue">{% if post.venue %}{{ post.venue }}{% endif %}</div>

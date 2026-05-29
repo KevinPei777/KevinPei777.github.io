@@ -26,5 +26,5 @@ venue:  SIGGRAPH Conference Papers '26
 # video:  "https://drive.google.com/file/d/1uFUiFCdFgzOE10Rl6pAPIZgCFRAuc1Cg/view"
 
 ---
-We present a distributed Affine Body Dynamics (ABD) solver within the Incremental Potential Contact (IPC) framework. Using a consensus-based ADMM formulation, the method enables scalable multi-GPU and multi-node simulation of stiff near-rigid solids while preserving IPC-level robustness and non-penetration guarantees.
+We present a distributed Affine Body Dynamics (ABD) solver within the Incremental Potential Contact (IPC) framework. A consensus-based ADMM formulation enables scalable multi-GPU and multi-node simulation of stiff near-rigid solids while preserving IPC robustness and non-penetration guarantees.
 
