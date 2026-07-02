@@ -62,3 +62,201 @@
     }
   }
 }
+
+.experience-template {
+  color: $dark;
+
+  .experience-section {
+    margin-bottom: 34px;
+  }
+
+  .experience-section__heading {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 12px 0 26px;
+
+    &:after {
+      content: "";
+      height: 1px;
+      flex: 1;
+      background: $light-gray;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.3;
+    }
+  }
+
+  .experience-list {
+    display: grid;
+    gap: 12px;
+  }
+
+  .experience-card {
+    position: relative;
+    padding: 18px 28px;
+    margin-bottom: 12px;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    background: $white;
+    box-shadow: 0 8px 24px rgba(46, 49, 54, .08);
+  }
+
+  .experience-card--internship {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 34px;
+    align-items: center;
+  }
+
+  .experience-card__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 14px;
+  }
+
+  h3 {
+    margin: 0 0 4px;
+    color: $dark;
+    font-size: 20px;
+    line-height: 1.25;
+  }
+
+  .experience-meta,
+  .experience-role,
+  .experience-course,
+  .experience-date {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  .experience-meta i,
+  .experience-date i {
+    width: 18px;
+    margin-right: 6px;
+    color: $dark;
+    text-align: center;
+  }
+
+  .experience-meta span {
+    margin: 0 12px;
+    color: $gray;
+  }
+
+  .experience-role {
+    color: #0f2d79;
+    font-weight: 700;
+  }
+
+  .experience-course {
+    font-style: italic;
+  }
+
+  .experience-date {
+    flex: 0 0 auto;
+    color: #51565e;
+    white-space: nowrap;
+  }
+
+  ul {
+    margin: 12px 0 0;
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 4px;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  .experience-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    padding: 14px;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: .5px;
+
+    i {
+      margin-bottom: 10px;
+      font-size: 46px;
+      line-height: 1;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      border: 0;
+      outline: none;
+      object-fit: contain;
+    }
+  }
+
+  .experience-logo--blue {
+    color: #27559c;
+    background: #edf4ff;
+  }
+
+  .experience-logo--green {
+    color: #4f8c4f;
+    background: #eef8ef;
+  }
+
+  .experience-logo--purple {
+    color: #6a3b9a;
+    background: #f3effa;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    .experience-section__heading {
+      gap: 12px;
+
+      h2 {
+        font-size: 21px;
+      }
+    }
+
+    .experience-card__header,
+    .experience-card--internship {
+      display: block;
+    }
+
+    .experience-date {
+      margin-top: 6px;
+      white-space: normal;
+    }
+
+    .experience-logo {
+      width: 112px;
+      height: 112px;
+      margin-bottom: 18px;
+      font-size: 13px;
+    }
+
+    .experience-card {
+      padding: 18px 20px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+  }
+}
