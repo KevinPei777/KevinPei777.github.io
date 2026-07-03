@@ -30,7 +30,7 @@ permalink: /experience/
       </div>
       <div class="experience-card__body">
         <h3>Huawei Cloud</h3>
-        <p class="experience-meta"><i class="ion ion-md-pin"></i> Hangzhou & Xi'an, CN <span>|</span><i class="ion ion-md-calendar"></i> July 2023 - Aug 2024</p>
+        <p class="experience-meta"><i class="ion ion-md-pin"></i> Hangzhou & Xi'an, CN <span>|</span><i class="ion ion-md-calendar"></i> July 2023 - July 2024</p>
         Distributed rigid body and fluid simulation.
       </div>
     </article>
