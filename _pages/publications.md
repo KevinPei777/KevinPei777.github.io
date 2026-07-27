@@ -55,12 +55,25 @@ permalink: /publications/
   <div class="pub-venue">
     ACM SIGGRAPH 2026 Conference Papers.
   </div>
-  <!-- <div class="pub-links">
-    <a href="https://dl.acm.org/doi/10.1145/3721238.3730619" target="_blank">Paper</a>
-    <a href="https://drive.google.com/file/d/1uFUiFCdFgzOE10Rl6pAPIZgCFRAuc1Cg/view" target="_blank">VIDEO</a>
-  </div> -->
+  <div class="pub-links">
+    <a href="https://dl.acm.org/doi/10.1145/3799902.3811106" target="_blank">Paper</a>
+  </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-authors">
+    <strong>Xinming Pei</strong>, Zhendong Wang, Lei Lan, Weiwei Xu, Yin Yang, Huamin Wang.
+  </div>
+  <div class="pub-title">
+    Curly Hair Simulation using Curly Finite Elements.
+  </div>
+  <div class="pub-venue">
+    arXiv Preprint, 2026.
+  </div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2607.22103" target="_blank">Paper</a>
+  </div>
+</div>
 
 <h2 class="pub-year">2025</h2>
 

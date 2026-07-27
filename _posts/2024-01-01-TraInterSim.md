@@ -2,7 +2,7 @@
 layout: post
 title: "TraInterSim: Adaptive and Planning-Aware Hybrid-Driven Traffic Intersection Simulation"
 date:   2024-01-01 15:01:35 +0300
-image:  Lv_TVCG_2024.png
+image:  paper/Lv_TVCG_2024.png
 tags:   Journal
 authors:
   - name: "Pei Lv"
